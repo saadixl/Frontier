@@ -15,7 +15,7 @@ add_action( 'admin_menu', 'register_frontier_menu' );
 
 function register_frontier_menu() {
 
-	add_menu_page( 'Frontier', 'Frontier', 'manage_options', 'frontier/frontier-admin.php', '', plugins_url( 'frontier/icon.png' ), 6 );
+	add_menu_page( 'Frontier', 'Frontier', 'manage_options', 'frontier/frontier-admin.php', '', plugins_url( 'frontier/icon.png' ));
 
 }
 
